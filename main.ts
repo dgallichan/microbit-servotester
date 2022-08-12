@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    isLive = true
+    isLive = false
     basic.showLeds(`
         # . . . #
         . # # # .
@@ -25,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
         . . . # .
         # # # # .
         `)
-    isLive = false
+    isLive = true
 })
 let isLive = false
 basic.showLeds(`
